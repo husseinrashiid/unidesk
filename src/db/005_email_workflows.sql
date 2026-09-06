@@ -1,0 +1,14 @@
+ALTER TABLE professors ADD COLUMN office TEXT NOT NULL DEFAULT '';
+ALTER TABLE professors ADD COLUMN office_hours TEXT NOT NULL DEFAULT '';
+ALTER TABLE professors ADD COLUMN department TEXT NOT NULL DEFAULT '';
+ALTER TABLE professors ADD COLUMN notes TEXT NOT NULL DEFAULT '';
+ALTER TABLE emails ADD COLUMN classification_manual INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE emails ADD COLUMN analyzed_at TEXT;
+ALTER TABLE exams ADD COLUMN cancelled INTEGER NOT NULL DEFAULT 0 CHECK(cancelled IN (0,1));
+ALTER TABLE email_accounts ADD COLUMN sync_error TEXT NOT NULL DEFAULT '';
+ALTER TABLE email_accounts ADD COLUMN retry_after TEXT;
+ALTER TABLE email_attachments ADD COLUMN file_id TEXT REFERENCES files(id) ON DELETE SET NULL;
+ALTER TABLE email_attachments ADD COLUMN attachment_type TEXT NOT NULL DEFAULT 'file';
+ALTER TABLE course_schedule_exceptions ADD COLUMN updated_at TEXT NOT NULL DEFAULT '';
+CREATE UNIQUE INDEX schedule_exception_meeting ON course_schedule_exceptions(course_id,date,original_start_time);
+INSERT OR IGNORE INTO settings VALUES ('email_notifications','false'),('email_show_low','true');
