@@ -1,0 +1,1 @@
+CREATE TABLE syllabus_imports(id TEXT PRIMARY KEY,result_id TEXT NOT NULL REFERENCES document_ai_results(id) ON DELETE CASCADE,item_index INTEGER NOT NULL,course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,payload_json TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT(datetime('now')),UNIQUE(result_id,item_index));

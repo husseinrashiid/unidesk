@@ -1,0 +1,7 @@
+CREATE TABLE ai_conversations(id TEXT PRIMARY KEY,course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,title TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT(datetime('now')));
+CREATE TABLE document_ai_results(id TEXT PRIMARY KEY,course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,exam_id TEXT REFERENCES exams(id) ON DELETE CASCADE,conversation_id TEXT REFERENCES ai_conversations(id) ON DELETE CASCADE,kind TEXT NOT NULL,title TEXT NOT NULL,model TEXT NOT NULL,cache_key TEXT NOT NULL,payload_json TEXT NOT NULL,sources_json TEXT NOT NULL,stale INTEGER NOT NULL DEFAULT 0,created_at TEXT NOT NULL DEFAULT(datetime('now')));
+CREATE INDEX ai_results_course ON document_ai_results(course_id,kind,created_at);
+CREATE INDEX ai_results_cache ON document_ai_results(cache_key,stale);
+CREATE TABLE ai_result_sources(result_id TEXT NOT NULL REFERENCES document_ai_results(id) ON DELETE CASCADE,document_id TEXT NOT NULL REFERENCES documents(id) ON DELETE CASCADE,content_hash TEXT NOT NULL,PRIMARY KEY(result_id,document_id));
+CREATE TRIGGER ai_source_changed AFTER UPDATE OF status,content_hash,enabled ON documents WHEN NEW.status<>'Indexed' OR NEW.content_hash<>OLD.content_hash OR NEW.enabled=0 BEGIN UPDATE document_ai_results SET stale=1 WHERE id IN (SELECT result_id FROM ai_result_sources WHERE document_id=NEW.id); END;
+CREATE TRIGGER ai_source_removed BEFORE DELETE ON documents BEGIN UPDATE document_ai_results SET stale=1 WHERE id IN (SELECT result_id FROM ai_result_sources WHERE document_id=OLD.id); END;

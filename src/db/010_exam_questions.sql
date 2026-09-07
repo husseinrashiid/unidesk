@@ -1,0 +1,2 @@
+CREATE TABLE previous_exam_questions(id TEXT PRIMARY KEY,result_id TEXT NOT NULL REFERENCES document_ai_results(id) ON DELETE CASCADE,file_id TEXT NOT NULL REFERENCES files(id) ON DELETE CASCADE,course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,number TEXT NOT NULL,text TEXT NOT NULL,type TEXT NOT NULL,year INTEGER,topics_json TEXT NOT NULL,citations_json TEXT NOT NULL,UNIQUE(file_id,number,text));
+CREATE INDEX previous_questions_course ON previous_exam_questions(course_id,file_id);
