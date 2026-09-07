@@ -1,0 +1,58 @@
+.ai-answer {
+  max-width: 960px;
+  line-height: 1.65;
+  margin: 22px 0;
+}
+.ai-answer section {
+  margin: 18px 0;
+}
+.ai-answer p {
+  margin: 8px 0;
+}
+.ai-citation {
+  color: var(--accent);
+  padding: 3px 6px;
+  margin-right: 5px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+.ai-option,
+.ai-file-options label {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin: 10px 0;
+}
+.ai-file-options {
+  max-height: 260px;
+  overflow: auto;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+}
+.ai-history {
+  display: block;
+  text-align: left;
+  padding: 12px;
+  width: 100%;
+  border-bottom: 1px solid var(--border);
+}
+.ai-history small {
+  display: block;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.ai-saved-result {
+  margin-top: 22px;
+  border-top: 1px solid var(--border);
+}
+.syllabus-review .material-result {
+  padding: 18px;
+  margin-top: 14px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+}
+.syllabus-review .ai-answer details {
+  max-height: 180px;
+  overflow: auto;
+}
