@@ -1,0 +1,225 @@
+Student Details
+Name : [Redacted Student]
+ID : [Redacted]
+
+Program Description
+Program : Bachelor in Computer Science Catalog Term : Fall 2024-2025
+Campus : Evaluation Term : Fall 2026-2027
+College : Arts & Sciences Expected Graduation Date :
+Degree: Bachelor of Science Request Number : 2
+Level : Undergraduate Results as of : Sep 03, 2026
+Majors : Computer Science Minors :
+Departments : Computer Science Concentrations :
+
+Program Evaluation
+Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 120.00 102.00 36
+Program GPA : 2.30 3.06
+
+Program Restricted Subjects and Attributes
+Subject Attribute Low High Campus College Department Maximum Credits And/Or Actual Credits Actual Courses
+AVSC 279 None 0 0
+AVSC 280 None 0 0
+NFSC 220 None 0 0
+
+AREA Description PROGRESS
+AUB_ARTIC 30 Crs Freshman/Bacc 100%
+AS_CMPS_MJ Major Req. Cmps 78%
+AUB_GE_ARA Arabic Communication Skills 0%
+AS_CMPS_RQ CMPS Required 75%
+AS_CMPS_GE CMPS GE Requirements 90%
+AUB_UNUSED Extra Free Electives NaN%
+AS_FIFTY 50 cr.with a grade of 70&above 100%
+
+30 Crs Freshman/Bacc
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 30.00 30.00 11
+Met Requirement Term Subject Course Title Attribute Credits Grade
+202510ARAB 102
+Reading In Arab
+Heritage II
+3.00 P
+202510BIOL 101
+Basic Concepts in
+Biology
+3.00 P
+202510CHEM 101 General Chemistry I 3.00 P
+202510CHEM 101L General Chemistry Lab I 1.00 P
+202510CHEM 102 General Chemistry II 3.00 P
+202510CHEM 102L General Chemistry Lab II 1.00 P
+202510ENGL 000 Engl Trsf Life Science 3.00 P
+202510MATH 101
+Calculus & Analytical
+Geometry I
+3.00 P
+202510MATH 102
+Calculus & Analytical
+Geometry II
+3.00 P
+202510PHIL 101 Applied Philosophy 3.00 P
+202510PHYS 101 Introductory Physics I 4.00 P
+
+Major Req. Cmps
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 42.00 33.00 11
+Area GPA : 2.30 2.83
+Met Requirement Term Subject Course Title Attribute Credits Grade
+202520CMPS 201 Introduction to Programming 3.00 C+
+202530CMPS 202 Data Structures 3.00 B-
+202620CMPS 214 Design & Analysis of Algorithms 3.00 B-
+202710CMPS 215 Theory of Computation 3.00
+202610CMPS 221 Computer Organization & Design 3.00 B-
+202620CMPS 240 Operating Systems 3.00 B+
+202610CMPS 241 Systems Programming 3.00 C
+202620CMPS 271 Software Engineering 3.00 A
+CMPS ELEC. 18 crs CMPS Elective
+202710CMPS 243
+Computer & Information
+Security
+3.00
+202710CMPS 262 Data Science 3.00
+202620EECE 433 Database Systems 3.00 B
+
+Arabic Communication Skills
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 3.00 0.00
+Met Requirement Term Subject Course Title Attribute Credits Grade
+ARAB : 3crs Arabic Communication
+
+CMPS Required
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 12.00 9.00 3
+Met Requirement Term Subject Course Title Attribute Credits Grade
+One of
+MATH 211
+202510CMPS 211 Discrete Structures 3.00 C+
+CMPS 211
+202510MATH 201 Calculus & Analytical Geom.III 3.00 C-
+One of
+STAT 230
+202530STAT 230 Introd. to Probab.& Random Var 3.00 C-
+STAT 233
+TECHNICAL 3 credits Technical
+
+CMPS GE Requirements
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 33.00 30.00 11
+Met Requirement Term Subject Course Title Attribute Credits Grade
+202520ENGL 204 Adv Academic English 3.00 A-
+202510ENGL 203 Academic English 3.00 A
+202510ECON 211
+Element.
+Microeconomic Theory
+3.00 A
+202520EDUC 211
+The School & the Social
+Order
+3.00 A
+202620PHIL 200A
+CEL-Fundam.in Civic
+Engagement
+1.00 P
+202710PHIL 200B
+CEL- Volunteering
+Rotation
+2.00
+202710PHIL 210 Ethics 3.00
+202610HIST 245
+History of Lebanon 634-
+1920 AD
+3.00 B+
+202620HIST 246
+From Grand Liban To
+Taef
+3.00 A-
+202710MATH 218
+Elem Linear Algebra w
+Applica.
+3.00
+202610CHEM 200
+Basic Chemistry &
+Applications
+3.00 A
+
+Extra Free Electives
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 0.00 0.00
+[ARCH 001 - ARCH 300]
+[GRDS 001 - GRDS 300]
+
+History of Ideas
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 0.00 0.00
+HIST IDEAS :Double Count History of Ideas
+
+Social Inequalities
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 0.00 0.00
+SOC INQ :Dbl Count Social Inequalities
+
+English Placement/Arabic Exemption
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 0.00 0.00
+One of
+ARABEX Arabic Exemption Authorized
+PLACEMENT :English Placement E203 1
+
+50 cr.with a grade of 70&above
+General Requirements Met Required Credits Used Credits Required Courses Used Courses
+Total Required : 50.00 51.00 17
+Met Requirement Term Subject Course Title Attribute Credits Grade
+202610CHEM 200
+Basic Chemistry &
+Applications
+3.00 A
+202520CMPS 201 Introduction to Programming 3.00 C+
+202530CMPS 202 Data Structures 3.00 B-
+202510CMPS 211 Discrete Structures 3.00 C+
+202620CMPS 214 Design & Analysis of Algorithms 3.00 B-
+202710CMPS 215 Theory of Computation 3.00
+202610CMPS 221 Computer Organization & Design 3.00 B-
+202620CMPS 240 Operating Systems 3.00 B+
+202710CMPS 243
+Computer & Information
+Security
+3.00
+202620CMPS 271 Software Engineering 3.00 A
+202510ECON 211
+Element.
+Microeconomic Theory
+3.00 A
+202520EDUC 211
+The School & the Social
+Order
+3.00 A
+202620EECE 433 Database Systems 3.00 B
+202510ENGL 203 Academic English 3.00 A
+202520ENGL 204 Adv Academic English 3.00 A-
+202610HIST 245
+History of Lebanon 634-
+1920 AD
+3.00 B+
+202620HIST 246
+From Grand Liban To
+Taef
+3.00 A-
+
+In Progress Courses
+Area Subject Course Title Credits
+CMPS GE Requirements MATH 218 Elem Linear Algebra w Applica. 3.00
+CMPS GE Requirements PHIL 200B CEL- Volunteering Rotation 2.00
+CMPS GE Requirements PHIL 210 Ethics 3.00
+Major Req. Cmps CMPS 215 Theory of Computation 3.00
+Major Req. Cmps CMPS 243 Computer & Information Security 3.00
+Major Req. Cmps CMPS 262 Data Science 3.00
+
+Courses Not Used
+Subject Course Title Term Credits Grade
+CMPS 201 Introduction to Programming 202510 3.00 F
+CMPS 214 Design & Analysis of Algorithms 202610 3.00 F
+MATH 218 Elem Linear Algebra w Applica. 202520 3.00 F
+
+Attributes Not Used
+Attribute Subject Course Title Term Credits Grade
+QNTH MATH 218 Elem Linear Algebra w Applica. 202520 3.00 F
+QNTR MATH 218 Elem Linear Algebra w Applica. 202520 3.00 F

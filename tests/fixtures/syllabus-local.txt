@@ -1,0 +1,21 @@
+Course Code: CMPS 215 - Theory of Computation
+Semester: Fall 2026
+Instructor: Dr. Example
+Email: instructor@example.edu
+Office: Building 304
+Office Hours: MW 2:00-3:00 PM, Building 304
+Class: Tuesday/Thursday 12:30 PM - 1:45 PM
+Location: Building 212
+Grading
+Assignments 20%
+Midterm 25%
+Project 20%
+Final Exam 35%
+Schedule
+Midterm 1: October 14, 2026
+Final Exam: December 16, 2026
+Project: November 30, 2026
+Homework 1: 10/11/2026
+Attendance Policy
+Missing 20% of classes can result in failure.
+Revision date: September 1, 2026

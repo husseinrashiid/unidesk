@@ -1,0 +1,29 @@
+Program: Bachelor in Computer Science
+Degree: Bachelor of Science
+Major: Computer Science
+Catalog Term: Fall 2024-2025
+Evaluation Term: Fall 2026
+Total Required Credits: 120
+Credits Used: 102
+Program GPA: 3.06
+Minimum GPA: 2.0
+Area: Major Req. Cmps
+Credits Required: 42
+Credits Used: 33
+CMPS 201 Introduction to Programming 3 A Fall 2024
+CMPS 202 Data Structures 3 B Spring 2025
+Area: Arabic Communication Skills
+ARAB 201 Arabic Communication 3 P Fall 2024
+Area: CMPS Required
+CMPS 201 Introduction to Programming 3 A Fall 2024
+CMPS 215 Theory of Computation 3 Fall 2026
+CMPS 243 Computer and Information Security 3 Fall 2026
+CMPS 262 Distributed Systems 3 Fall 2026
+Area: CMPS GE Requirements
+MATH 218 Discrete Mathematics 3 Fall 2026
+PHIL 200B History of Ideas 3 Fall 2026
+PHIL 210 Ethics 3 Fall 2026
+Courses Not Used
+CMPS 202 Data Structures 3 F Fall 2024
+Attributes Not Used
+MATH 201 Calculus 3 P Fall 2024

@@ -1,0 +1,408 @@
+
+
+(/StudentSelfService/) [Student redacted]
+
+Student Degree evaluation record
+
+Degree evaluation record
+
+Select Current Term
+
+Student D etails
+Name : [Student redacted]
+ID : [ID redacted]
+ Program D escription
+Program : B achelor in C omputer Science Catalog Term : Fall 2024-2025
+Campus : Evaluation Term : Fall 2026-2027
+College : A rts & Sciences Expected Graduation Date :
+Degree: B achelor of Science Request Number : 2
+Level : Undergraduate Results as of : Sep 03, 2026
+Majors : C omputer Science Minors :
+Departments : C omputer Science Concentrations :
+
+Program Evaluation
+
+MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total
+Required : 120.00 102.00 36
+
+Program
+GPA : 2.30 3.06
+
+Program Restricted Subjects and A ttributes
+
+SubjectAttributeLowHighCampusCollegeDepartmentMaximum
+Credits And/OrActual
+CreditsActual
+Courses
+AVSC 279 None 0 0
+AVSC 280 None 0 0
+NFSC 220 None 0 0
+
+AREA Description PROGRESS
+A UB _A RTIC 30 C rs Freshman/B acc 100%
+A S_C MPS_MJ Major Req. C mps 78%
+A UB _GE_A RA A rabic C ommunication Skills 0%
+
+Fall 2026-2027
+ Generate New Evaluation Previous Evaluations What-if Analysis
+
+9/9/26, 2:21 A M D egree evaluation record
+
+https://sisxe.aub.edu.lb/StudentSelfService/ssb/degreeEvaluation#!/home/202710/tabs/previous/report/2 1/7
+
+
+A S_C MPS_RQ C MPS Required 75%
+A S_C MPS_GE C MPS GE Requirements 90%
+A UB _UNUSED Extra Free Electives NaN%
+GE_HIST_ID History of Ideas NaN%
+GE_SOC _INQ Social Inequalities NaN%
+A UB _ENG_A R English Plcmt/A rabic ExemptionNaN%
+A S_FIFTY 50 cr.with a grade of 70&above 100%
+
+30 Crs Freshman/Bacc
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 30.00 30.00 11
+
+MetRequirement Term SubjectCourseTitle AttributeCreditsGrade
+30C RS 30 C r
+A rticulation/Freshman 202510A RA B 102 Reading In A rab
+Heritage II 3.00 P
+
+202510B IOL 101 B asic C oncepts in
+B iology 3.00 P
+
+202510C HEM 101 General C hemistry I 3.00 P
+202510C HEM 101L General C hemistry Lab I 1.00 P
+202510C HEM 102 General C hemistry II 3.00 P
+202510C HEM 102L General C hemistry Lab II 1.00 P
+202510ENGL 000 Engl Trsf Life Science 3.00 P
+
+202510MATH 101 C alculus&A nalytical
+Geometry I 3.00 P
+
+202510MATH 102 C alculus&A nalytical
+GeometryII 3.00 P
+
+202510PHIL 101 A pplied Philosophy 3.00 P
+202510PHYS 101 Introductory Physics I 4.00 P
+Total C redits and GPA  : 30.00   0.00
+
+Major Req. Cmps
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 42.00 33.00 11
+Area GPA : 2.30 2.83
+
+MetRequirement Term SubjectCourseTitle AttributeCreditsGrade
+
+C MPS 201 202520C MPS 201 Introduction to
+Programming 3.00 C +
+
+C MPS 202 202530C MPS 202 D ata Structures 3.00 B -
+
+C MPS 214 202620C MPS 214 D esign &A nalysis of
+A lgorithms 3.00 B -
+
+C MPS 215 202710C MPS 215 Theory of C omputation 3.00
+
+9/9/26, 2:21 A M D egree evaluation record
+
+https://sisxe.aub.edu.lb/StudentSelfService/ssb/degreeEvaluation#!/home/202710/tabs/previous/report/2 2/7
+
+
+C MPS 221 202610C MPS 221 C omputer Organization &
+D esign 3.00 B -
+
+C MPS 240 202620C MPS 240 Operating Systems 3.00 B +
+C MPS 241 202610C MPS 241 Systems Programming 3.00 C
+C MPS 271 202620C MPS 271 Software Engineering 3.00 A
+C MPS ELEC . 18 crs C MPS
+Elective 202710C MPS 243 C omputer &Information
+Security 3.00
+
+202710C MPS 262 D ata Science 3.00
+202620EEC E 433 D atabase Systems 3.00 B
+Total C redits and GPA  : 33.00   2.83
+
+Arabic Communication Skills
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 3.00 0 0
+
+Met Requirement Term Subject Course Title Attribute Credits Grade
+A RA B  : 3crs A rabic C ommunication Total C redits and GPA  : 0   0.00
+
+CMPS Required
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 12.00 9.00 3
+
+MetRequirement Term SubjectCourseTitle AttributeCreditsGrade
+One of
+ MATH 211 202510C MPS 211 D iscrete Structures 3.00 C +
+
+C MPS 211
+
+MATH 201 202510MATH 201 C alculus &
+A nalytical Geom.III 3.00 C -
+
+One of
+ STAT 230 202530STAT 230 Introd. to Probab.&
+Random Var 3.00 C -
+
+STAT 233
+TEC HNIC A L 3 credits
+Technical Total C redits and GPA  : 9.00   1.90
+
+9/9/26, 2:21 A M D egree evaluation record
+
+https://sisxe.aub.edu.lb/StudentSelfService/ssb/degreeEvaluation#!/home/202710/tabs/previous/report/2 3/7
+
+
+CMPS GE Requirements
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 33.00 30.00 11
+
+MetRequirement Term SubjectCourseTitle AttributeCreditsGrade
+ENGL 204 202520ENGL 204 A dv A cademic English 3.00 A -
+ENGL 203 202510ENGL 203 A cademic English 3.00 A
+SOC IETIES : 6crs Societies
+& Individuals 202510EC ON 211 Element.
+Microeconomic Theory SOIN 3.00 A
+
+202520ED UC 211 The School & the Social
+Order SOIN 3.00 A
+
+C OMMUNITY : C ommunity
+Engaged Learning 202620PHIL 200A C EL-Fundam.in C ivic
+Engagement C OEL 1.00 P
+
+202710PHIL 200B C EL- Volunteering
+Rotation C OEL 2.00
+
+VA LUES : 3crs Human
+Values 202710PHIL 210 Ethics HUMV 3.00
+
+C ULTURES : 9crs C ultures
+and Histories 202610HIST 245 History of Lebanon 634-
+1920 A D C HIS 3.00 B +
+
+202620HIST 246 From Grand Liban To
+Taef C HIS 3.00 A -
+
+QUA NT : 3crs Quantitative
+Reasoning 202710MATH 218 Elem Linear A lgebra w
+A pplica. 3.00
+
+WORLD  : 3crs
+Understanding the World 202610C HEM 200 B asic C hemistry &
+A pplications UNWO 3.00 A
+
+Total C redits and GPA  : 30.00   3.81
+
+Extra Free Electives
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 0 0 0
+
+Met Requirement Term Subject Course Title Attribute Credits Grade
+[A RC H 001 - A RC H 300]
+[GRD S 001 - GRD S 300]
+[ 200 -  900]
+[ 200A  -  900Z]
+[ 200A A  -  900ZZ] Total C redits and GPA  : 0   0.00
+
+History of Ideas
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 0 0 0
+
+9/9/26, 2:21 A M D egree evaluation record
+
+https://sisxe.aub.edu.lb/StudentSelfService/ssb/degreeEvaluation#!/home/202710/tabs/previous/report/2 4/7
+
+
+Met Requirement Term Subject Course Title Attribute Credits Grade
+HIST ID EA S :D ouble C ount History of Ideas Total C redits and GPA  : 0   0.00
+
+Social Inequalities
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 0 0 0
+
+Met Requirement Term Subject Course Title Attribute Credits Grade
+SOC  INQ :D bl C ount Social Inequalities Total C redits and GPA  : 0   0.00
+
+English Plcmt/Arabic Exemption
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 0 0 0
+
+MetRequirement TermSubjectCourseTitle Attribute CreditsGrade
+One of  A RA B EX A rabic Exemption
+A uthorized
+ PLA C EMENT :English Placement E203 1
+Total C redits and GPA
+: 0   0.00
+
+50 cr.with a grade of 70&above
+
+General
+Requirements MetRequired
+Credits Used
+Credits Required
+Courses Used
+Courses
+Total Required : 50.00 51.00 17
+
+MetRequirement Term SubjectCourseTitle AttributeCreditsGrade
+One of  50 cr. [ 200 -
+ 398ZZ] 202610C HEM 200 B asic C hemistry &
+A pplications 3.00 A
+
+202520C MPS 201 Introduction to
+Programming 3.00 C +
+
+202530C MPS 202 D ata Structures 3.00 B -
+
+9/9/26, 2:21 A M D egree evaluation record
+
+https://sisxe.aub.edu.lb/StudentSelfService/ssb/degreeEvaluation#!/home/202710/tabs/previous/report/2 5/7
+
+
+202510C MPS 211 D iscrete Structures 3.00 C +
+
+202620C MPS 214 D esign &A nalysis of
+A lgorithms 3.00 B -
+
+202710C MPS 215 Theory of C omputation 3.00
+
+202610C MPS 221 C omputer Organization
+& D esign 3.00 B -
+
+202620C MPS 240 Operating Systems 3.00 B +
+
+202710C MPS 243 C omputer &Information
+Security 3.00
+
+202620C MPS 271 Software Engineering 3.00 A
+
+202510EC ON 211 Element.
+Microeconomic Theory 3.00 A
+
+202520ED UC 211 The School & the
+Social Order 3.00 A
+
+202620EEC E 433 D atabase Systems 3.00 B
+202510ENGL 203 A cademic English 3.00 A
+202520ENGL 204 A dv A cademic English 3.00 A -
+
+202610HIST 245 History of Lebanon
+634-1920 A D 3.00 B +
+
+202620HIST 246 From Grand Liban To
+Taef 3.00 A -
+
+ 50 cr. [ 200A  -
+ 398Z]
+ 50 cr. [ 200A A
+-  398ZZ] Total C redits and GPA  : 51.00   3.31
+
+In Progress C ourses
+Area SubjectCourseTitle Credits
+
+C MPS GE Requirements MATH 218 Elem Linear A lgebra w
+A pplica. 3.00
+
+C MPS GE Requirements PHIL 200B C EL- Volunteering
+Rotation 2.00
+
+C MPS GE Requirements PHIL 210 Ethics 3.00
+Major Req. C mps C MPS 215 Theory of C omputation 3.00
+
+Major Req. C mps C MPS 243 C omputer &Information
+Security 3.00
+
+Major Req. C mps C MPS 262 D ata Science 3.00
+50 cr.with a grade of
+70&above C MPS 215 Theory of C omputation 3.00
+
+50 cr.with a grade of
+70&above C MPS 243 C omputer &Information
+Security 3.00
+
+C ourses Not Used
+Subject Course Title Term Credits Grade
+C MPS 201 Introduction to Programming 202510 3.00 F
+C MPS 214 D esign &A nalysis of A lgorithms 202610 3.00 F
+MATH 218 Elem Linear A lgebra w A pplica. 202520 3.00 F
+
+A ttributes Not Used
+AttributeSubjectCourseTitle Term CreditsGrade
+
+QNTH MATH 218 Elem Linear A lgebra w
+A pplica. 2025203.00 F
+
+QNTR MATH 218 Elem Linear A lgebra w
+A pplica. 2025203.00 F
+
+9/9/26, 2:21 A M D egree evaluation record
+
+https://sisxe.aub.edu.lb/StudentSelfService/ssb/degreeEvaluation#!/home/202710/tabs/previous/report/2 6/7
+
+
+9/9/26, 2:21 A M D egree evaluation record
+
+https://sisxe.aub.edu.lb/StudentSelfService/ssb/degreeEvaluation#!/home/202710/tabs/previous/report/2 7/7
