@@ -1,0 +1,12 @@
+{
+  "identifier": "windows-integration",
+  "windows": [
+    "main"
+  ],
+  "platforms": [
+    "windows"
+  ],
+  "permissions": [
+    "window-state:default"
+  ]
+}

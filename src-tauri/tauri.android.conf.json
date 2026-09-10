@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "build": {
+    "beforeDevCommand": "npm run dev:android",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [{ "label": "main", "title": "UniDesk" }]
+  },
+  "bundle": { "android": { "minSdkVersion": 26 } }
+}
