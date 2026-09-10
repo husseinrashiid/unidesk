@@ -1,0 +1,47 @@
+{
+  "name": "unidesk",
+  "version": "0.5.6",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "documents:build": "node scripts/documents-build.mjs",
+    "dev": "vite --host 127.0.0.1 --port 1420 --configLoader runner",
+    "build": "tsc -b && vite build --configLoader runner",
+    "preview": "vite preview --host 127.0.0.1 --port 1420",
+    "test": "tsx --test tests/*.test.ts",
+    "tauri": "tauri",
+    "desktop": "node scripts/desktop.mjs dev",
+    "desktop:build": "node scripts/desktop.mjs build",
+    "dev:android": "node scripts/android-dev.mjs",
+    "android:init": "node scripts/android.mjs init --ci",
+    "android:dev": "node scripts/android.mjs dev",
+    "android:build": "node scripts/android.mjs build --apk --target aarch64",
+    "android:debug": "node scripts/android.mjs build --debug --apk --target aarch64",
+    "sync:serve": "tsx server/sync-service.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.0",
+    "@tauri-apps/api": "^2.8.0",
+    "@tauri-apps/plugin-dialog": "^2.4.0",
+    "@tauri-apps/plugin-notification": "^2.3.0",
+    "lucide-react": "^0.468.0",
+    "pdfjs-dist": "^6.3.289",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@tauri-apps/cli": "^2.8.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.0"
+  }
+}
