@@ -1,0 +1,14 @@
+{
+  "identifier": "main-capability",
+  "description": "Local UniDesk window permissions",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "core:webview:allow-set-webview-zoom",
+    "dialog:allow-open",
+    "notification:default",
+    "notification:allow-create-channel"
+  ]
+}
