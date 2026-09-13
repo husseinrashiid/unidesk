@@ -23,7 +23,8 @@ Academic records live in a local SQLite database. Course documents stay as ordin
 - [Overview](#overview)
 - [Features](#features)
 - [Tech stack](#tech-stack)
-- [Getting started](#getting-started)
+- [Install](#install)
+- [Getting started (development)](#getting-started-development)
 - [Project structure](#project-structure)
 - [Data, sync, and platform docs](#data-sync-and-platform-docs)
 - [Testing](#testing)
@@ -59,7 +60,16 @@ Academic data stays local by default — there is no cloud processing of it unle
 | Optional sync backend | Supabase (Postgres, Auth, Storage) + a small Node/TypeScript sync service |
 | Testing | Node's built-in test runner, Playwright |
 
-## Getting started
+## Install
+
+Prebuilt binaries are on the [Releases page](https://github.com/husseinrashiid/unidesk/releases/latest) — no build tools required.
+
+- **Windows:** download `UniDesk_x64-setup.exe` and run it. The build is unsigned (it's not code-signed with a paid certificate), so Windows SmartScreen will show an "unrecognized app" warning on first run — choose **More info → Run anyway**.
+- **Android:** download the `.apk` from the same release onto your phone, open it, and allow your browser or file manager to **install unknown apps** when prompted. It's a signed ARM64 build. See [docs/android.md](docs/android.md#installing-a-built-apk) if you'd rather sideload via `adb`.
+
+There's no auto-updater — check the Releases page for new versions. Installing a newer build over the old one preserves your data; the desktop database and course files live outside the installer's own folder, and the Android build never wipes app storage on upgrade.
+
+## Getting started (development)
 
 **Prerequisites:** Node 22.13+, Rust (stable), Visual Studio C++ build tools, and the WebView2 runtime (Windows).
 

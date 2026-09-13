@@ -5,6 +5,32 @@ Tauri's generated Gradle project is in `src-tauri/gen/android`; the application 
 is `local.unidesk.app`, preserving the existing Windows identity. Minimum Android
 version is API 26. The generated target/compile SDK is API 36.
 
+## Installing a built APK
+
+If you just want to run the app, you don't need the Android SDK — grab the ARM64
+APK from the [Releases page](https://github.com/husseinrashiid/unidesk/releases/latest)
+and sideload it:
+
+1. Copy the `.apk` onto your phone (download it directly in the phone's browser, or
+   transfer it over USB/cloud storage).
+2. Open the file. Android will prompt to allow installs from that source (browser
+   or file manager) — approve it once; this is a per-app permission, not a global
+   device setting.
+3. Confirm the install. The app requests no permissions at install time; it asks
+   for notification access only if you enable reminders in Settings.
+
+Prefer `adb`? With USB debugging enabled and the device connected:
+
+```powershell
+adb install -r path\to\UniDesk-0.5.6-android-arm64.apk
+```
+
+`-r` reinstalls over an existing copy without clearing its data. This currently
+only targets ARM64 devices (the vast majority of phones and tablets from the last
+several years) — there's no `x86_64` or 32-bit ARM build.
+
+## Building from source
+
 Install JDK 17, Android SDK platform 36, build-tools 36, platform-tools, NDK
 27.2.12479018, and Rust target `aarch64-linux-android`. Set `JAVA_HOME`,
 `ANDROID_HOME` and `NDK_HOME`, or use the workspace-local installations under
