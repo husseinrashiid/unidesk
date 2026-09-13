@@ -9,3 +9,7 @@ src-tauri/target/
 src-tauri/gen/android/app/src/main/jniLibs/
 src-tauri/gen/android/app/tauri.properties
 src-tauri/gen/android/app/tauri.build.gradle.kts
+
+# Build artifacts / installers (attach to GitHub Releases instead)
+UniDesk-Setup.exe
+*.exe
