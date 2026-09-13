@@ -39,14 +39,15 @@ UniDesk is a single-user academic workspace built around one idea: your semester
 | Area | What it does |
 |---|---|
 | **Academic tracking** | Semesters, courses, exams, assignments, and tasks; weighted grade components with what-if/target scenarios; credit-weighted GPA. |
-| **Planning** | Month, week, and agenda calendars; a deterministic study planner; session history; a globally accessible study timer. |
-| **Documents** | Native file picker and drag-and-drop import into per-course folders (Lectures, Assignments, Exams, Readings, Recordings, Notes, Resources); conflict-safe copy/replace; moved-file repair. |
+| **Planning** | Month, week, and agenda calendars driven by academic records and recurring class schedules. |
+| **Documents** | Native file picker and drag-and-drop import into per-course folders (Lectures, Assignments, Exams, Readings, Recordings, Notes, Resources); in-app PDF viewing; conflict-safe copy/replace; moved-file repair. |
+| **AI-assisted study** *(optional)* | Local, offline document search plus bring-your-own-key cited Q&A, syllabus import, and generated study guides/practice questions. See [AI features](docs/ai-features.md). |
 | **Email integration** | Read-only Gmail and Microsoft 365 (Graph) sync with deterministic classification and course matching, and reviewable proposals for exam/assignment changes. No AI, no HTML rendering; tokens never touch the database. |
 | **Search & navigation** | Global search, command palette (`Ctrl+K`), page search (`Ctrl+F`), Quick Add. |
 | **Cross-platform** | One React frontend across Windows and Android, with a responsive, touch-adapted UI. |
-| **Multi-device sync** | Optional, opt-in sync against a self-hosted Supabase project. Local edits always work offline first. |
+| **Multi-device sync** *(optional)* | Opt-in sync against a self-hosted Supabase project. Local edits always work offline first. |
 
-Academic data stays local by default — there is no cloud processing of it and no transcription. See [Data, sync, and platform docs](#data-sync-and-platform-docs) for exactly what each optional integration does.
+Academic data stays local by default — there is no cloud processing of it unless you explicitly enable AI features with your own API key. See [Data, sync, and platform docs](#data-sync-and-platform-docs) for exactly what each optional integration does.
 
 ## Tech stack
 
@@ -98,11 +99,13 @@ Each device keeps its own local SQLite database; nothing above the file-storage 
 
 | Doc | Covers |
 |---|---|
-| [ANDROID.md](ANDROID.md) | APK builds, signing, Android-specific behavior |
-| [SYNC.md](SYNC.md) | Optional multi-device sync design and setup |
-| [PLATFORM-EXPANSION.md](PLATFORM-EXPANSION.md) | Cross-platform architecture and verification status |
-| [GMAIL-SETUP.md](GMAIL-SETUP.md) | Gmail OAuth setup and token handling |
-| [MICROSOFT-365-STATUS.md](MICROSOFT-365-STATUS.md) | Microsoft Graph device-code sign-in setup |
+| [docs/architecture.md](docs/architecture.md) | Cross-platform architecture, sync design, security model |
+| [docs/android.md](docs/android.md) | APK builds, signing, Android-specific behavior |
+| [docs/sync.md](docs/sync.md) | Self-hosted Supabase sync: deploy steps, conflicts, file transfer |
+| [docs/supabase-setup.md](docs/supabase-setup.md) | Deploying the self-hosted Supabase stack |
+| [docs/ai-features.md](docs/ai-features.md) | Local document search and optional bring-your-own-key AI features |
+| [docs/gmail-setup.md](docs/gmail-setup.md) | Gmail OAuth setup and token handling |
+| [docs/microsoft-365-setup.md](docs/microsoft-365-setup.md) | Microsoft Graph device-code sign-in setup |
 
 ## Testing
 
@@ -112,7 +115,7 @@ Each device keeps its own local SQLite database; nothing above the file-storage 
 
 ## Status
 
-Actively developed and in daily personal use rather than a finished 1.0. See [PHASE3-STATUS.md](PHASE3-STATUS.md) and [PHASE4-STATUS.md](PHASE4-STATUS.md) for feature-by-feature verification notes, and the `RELEASE-*.md` files for release history.
+Actively developed and in daily personal use rather than a finished 1.0. See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## License
 

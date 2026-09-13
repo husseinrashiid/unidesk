@@ -80,18 +80,8 @@ Android Back closes the active dialog/drawer, then returns through in-app naviga
 
 See `scripts/native-cross-device-smoke.mjs` for repeatable native two-device checks. Screenshots and isolated test databases are saved under `.local/native-cross-device`. Do not run reset commands against a real user's Android installation.
 
-Native startup uses a bounded, read-only readiness probe before initial SQLite queries. No mutation is replayed by that probe. See [the verification report](platform-expansion-report.md) for measured results.
-
-## Focused acceptance checks (12 September 2026)
-
-With the existing local Supabase test stack and a fresh **dedicated emulator** profile, set `SUPABASE_CLI` to the real CLI executable and `UNIDESK_CORE_ONLY=1`, then run `node --import tsx scripts/native-cross-device-smoke.mjs`. This verifies local eviction/redownload, cross-device file/task deletion, Back, secure sign-in, SQLite and pending offline changes across force-stop/restart. `node scripts/android-notification-smoke.mjs` separately verifies notification denial, grant, actual delivery and delivery after restart. Both passed; the external file-dialog flow remains independently verified. Never run emulator-reset commands against your personal tablet.
-
-When using a `.cmd` Supabase shim on Windows, supply its underlying executable through `SUPABASE_CLI`; the native script spawns an executable directly.
+Native startup uses a bounded, read-only readiness probe before initial SQLite queries; no mutation is replayed by that probe. See [Architecture](architecture.md) for how this fits into the wider sync design.
 
 ## Native library compatibility
 
-Android builds explicitly align ELF LOAD segments and RELRO boundaries to 16 KB. `scripts/check-android-alignment.mjs` checks the native library and SDK `zipalign -c -P 16 4` checks APK packaging; `scripts/android.mjs` runs both before reporting a successful ARM64 build. The NDK r27 linker flags follow [Android's native page-size guidance](https://developer.android.com/guide/practices/page-sizes#compile-r27). Physical tablet verification caught the previous misalignment warning before release.
-
-## Physical tablet result
-
-On 12 September 2026, the existing SM-X710 installation (Android 16) was updated with `adb -s <tablet-serial> install -r <debug-apk>` without uninstalling or clearing data. Workspace/device-identity/account-state fingerprints matched before and after. Portrait, landscape and visible Samsung-keyboard dialog checks passed, and the 16 KB compatibility warning was absent after installing the aligned build and restarting. Screenshots are recorded in the platform report. `scripts/tablet-readonly-smoke.mjs` requires `UNIDESK_TABLET_SERIAL` and restores the previous rotation settings; it never saves its draft assignment.
+Android builds explicitly align ELF LOAD segments and RELRO boundaries to 16 KB. `scripts/check-android-alignment.mjs` checks the native library, and SDK `zipalign -c -P 16 4` checks APK packaging; `scripts/android.mjs` runs both before reporting a successful ARM64 build. The NDK r27 linker flags follow [Android's native page-size guidance](https://developer.android.com/guide/practices/page-sizes#compile-r27).

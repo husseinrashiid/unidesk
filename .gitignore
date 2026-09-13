@@ -13,3 +13,4 @@ src-tauri/gen/android/app/tauri.build.gradle.kts
 # Build artifacts / installers (attach to GitHub Releases instead)
 UniDesk-Setup.exe
 *.exe
+supabase/.temp/

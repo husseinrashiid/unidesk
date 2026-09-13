@@ -6,7 +6,7 @@ UniDesk uses local SQLite and course files for immediate interaction. Sync is op
 
 1. Install the official [self-hosted Supabase Docker stack](https://supabase.com/docs/guides/self-hosting/docker) on your server. Set its deployment secrets, public HTTPS URL and SMTP settings for account confirmation according to that guide. UniDesk needs Auth, PostgREST and Storage.
 2. Apply all SQL files in `supabase/migrations` in filename order as the database administrator, once per installation. Use Studio's SQL editor or `psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f <migration.sql>`. These create the sync RPC, entity allowlist, per-account records/revisions/device registry, RLS policies and private `unidesk-files` bucket. Do not run the test bootstrap against your deployment.
-3. In UniDesk, open **Settings ? Sync & Account**, enter the HTTPS Supabase API URL and its public/anon API key, then create an account or sign in with email/password. Never enter a service-role/secret key. See Supabase's [self-hosted key configuration](https://supabase.com/docs/guides/self-hosting/self-hosted-auth-keys).
+3. In UniDesk, open **Settings → Sync & Account**, enter the HTTPS Supabase API URL and its public/anon API key, then create an account or sign in with email/password. Never enter a service-role/secret key. See Supabase's [self-hosted key configuration](https://supabase.com/docs/guides/self-hosting/self-hosted-auth-keys).
 4. On a fresh device, choose **Connect an existing UniDesk workspace** on the welcome screen and sign in before creating a semester. Sync downloads the existing records into its local SQLite database. Choose a device name in Settings.
 
 Release apps require HTTPS. Debug builds permit HTTP loopback for development. No Supabase endpoint or administrator credential is bundled. No production server is deployed automatically. UniDesk accounts are independent of Microsoft 365/Gmail integration.
@@ -15,7 +15,7 @@ Passwords are used only for authentication. Access/refresh tokens are retained i
 
 ## Records and conflicts
 
-Migrations 17?19 preserve existing academic records and add transaction-bound capture, compacted outbox entries, monotonic local versions, baselines, conflicts and tombstones. Stable existing text/composite identities travel between devices; local row IDs do not. Academic data, schedules/exceptions, grades, study records, file metadata/links, degree and syllabus data, source history, week-start and reminder-lead preferences sync. Paths, credentials, UI layout, mail caches, extraction indexes, notification delivery flags and running timers remain device-local.
+Migrations 17–19 preserve existing academic records and add transaction-bound capture, compacted outbox entries, monotonic local versions, baselines, conflicts and tombstones. Stable existing text/composite identities travel between devices; local row IDs do not. Academic data, schedules/exceptions, grades, study records, file metadata/links, degree and syllabus data, source history, week-start and reminder-lead preferences sync. Paths, credentials, UI layout, mail caches, extraction indexes, notification delivery flags and running timers remain device-local.
 
 Each accepted write uses expected server versions and a durable mutation identity. Lost acknowledgements replay safely. Remote batches and their cursor commit in one SQLite transaction; failed applies roll back. Server revisions and tombstones are retained indefinitely, preventing stale devices from resurrecting deletions.
 

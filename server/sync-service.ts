@@ -117,7 +117,7 @@ export function createSyncService(directory: string, accounts: Record<string,str
 }
 if(process.argv[1] && import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href) {
   const accountFile=process.env.UNIDESK_SYNC_ACCOUNTS;
-  if(!accountFile) throw Error('Set UNIDESK_SYNC_ACCOUNTS to a JSON file mapping SHA-256 token hashes to workspace IDs. See SYNC.md.');
+  if(!accountFile) throw Error('Set UNIDESK_SYNC_ACCOUNTS to a JSON file mapping SHA-256 token hashes to workspace IDs. See docs/sync.md.');
   const accounts=JSON.parse(fs.readFileSync(accountFile,'utf8')) as Record<string,string>;
   createSyncService(path.resolve(process.env.UNIDESK_SYNC_DATA??'.local/sync-server'),accounts)
     .listen(Number(process.env.PORT??8787),process.env.HOST??'127.0.0.1',()=>console.log('UniDesk sync service listening'));

@@ -15,7 +15,7 @@ if (!env.NDK_HOME && existsSync(ndks)) env.NDK_HOME = path.join(ndks, readdirSyn
 if (existsSync('.local/android-jdk')) env.JAVA_HOME = path.join(root, '.local/android-jdk', readdirSync('.local/android-jdk').find(name => name.startsWith('jdk-')));
 env.GRADLE_USER_HOME ||= path.join(root, '.local/gradle');
 if (!existsSync(env.ANDROID_HOME) || !env.NDK_HOME || !existsSync(env.NDK_HOME)) {
-  console.error('Install the Android SDK and NDK, then set ANDROID_HOME, NDK_HOME and JAVA_HOME. See ANDROID.md.');
+  console.error('Install the Android SDK and NDK, then set ANDROID_HOME, NDK_HOME and JAVA_HOME. See docs/android.md.');
   process.exit(1);
 }
 const args=process.argv.slice(2);
